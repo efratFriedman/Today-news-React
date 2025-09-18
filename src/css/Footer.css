@@ -28,10 +28,7 @@
 }
 
 .socials a {
-    color: #fff;
+    color: #ffcc00;
     transition: color 0.3s;
 }
 
-.socials a:hover {
-    color: #ffcc00;
-}
