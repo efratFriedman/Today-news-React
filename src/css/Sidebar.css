@@ -1,0 +1,81 @@
+/* Sidebar Container */
+.sidebar {
+  background-color: #1a1a1a; /* שחור כהה ואחיד */
+  color: #ffffff; /* טקסט כללי לבן */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+/* Headings within the sidebar */
+.sidebar h2, .sidebar h3 {
+  color: #f2a60b; /* כותרות בכתום-צהוב */
+  border-bottom: 2px solid #f2a60b;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* Weather Widget - עיצוב משופר */
+.weather-widget {
+  background-color: #1a1a1a;
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.weather-widget h3 {
+  color: #f2a60b; /* כותרת בכתום-צהוב */
+  border-bottom: 2px solid #f2a60b;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.weather-widget .weather-details {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.weather-widget .weather-details p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Sponsored section and ads */
+.sponsored {
+  margin-top: 20px;
+}
+
+.ad {
+  background-color: #2a2a2a; /* שחור מעט בהיר יותר, ליצירת ניגודיות */
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.ad:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.ad h4 {
+  color: #f2a60b; /* כותרות בכתום-צהוב */
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.ad p {
+  color: #cccccc; /* טקסט אפור בהיר לקריאות טובה יותר על רקע כהה */
+  margin: 0;
+  font-size: 14px;
+}
