@@ -12,8 +12,8 @@
 }
 
 .sidebar h2, .sidebar h3 {
-  color: #f2a60b; 
-  border-bottom: 2px solid #f2a60b;
+  color: #ffcc00; 
+  border-bottom: 2px solid #ffcc00;
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
@@ -28,8 +28,8 @@
 }
 
 .weather-widget h3 {
-  color: #f2a60b; 
-  border-bottom: 2px solid #f2a60b;
+  color: #ffcc00; 
+  border-bottom: 2px solid #ffcc00;
   padding-bottom: 5px;
   margin-bottom: 10px;
 }
@@ -65,7 +65,7 @@
 }
 
 .ad h4 {
-  color: #f2a60b; 
+  color: #ffcc00; 
   margin-top: 0;
   margin-bottom: 5px;
 }
